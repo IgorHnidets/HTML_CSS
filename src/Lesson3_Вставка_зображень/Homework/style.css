@@ -1,0 +1,20 @@
+.style1{
+    text-align: center;
+    letter-spacing: 10px;
+    line-height: 60px;
+}
+.style2{
+    font-size: 20px;
+    font-weight: bold;
+}
+.style3{
+    letter-spacing: 5px;
+    text-decoration: underline ;
+}
+.style4{
+    font-size: 17px;
+    text-indent: 20px;
+}
+.back{
+    background-image: url("images/bg.jpg");
+}

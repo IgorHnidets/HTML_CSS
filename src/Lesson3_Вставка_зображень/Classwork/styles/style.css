@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "Comic Mono";
+    src: url(../fonts/ComicMono.ttf);
+}
+.block{
+    padding: 16 px;
+    width: 600px;
+    height: 300px;
+    font-family: "Comic Mono";
+    /*background: linear-gradient(to right, blue 25%,yellow);*/
+    /*background: radial-gradient(circle,green,yellow,purple);*/
+    /*background: #bb4499;*/
+    /*background-image: url("../images/img_1.png");*/
+    /*background-repeat: no-repeat ;*/
+    /*background-attachment: scroll ;*/
+    /*background-position: center left ;*/
+    /*background-size: cover ;*/
+    /*font-size: 1.5em;*/
+    /*font-size: 150%;*/
+    /*font-size: 24px;*/
+    /*font-family: Splash;*/
+    /*text-indent: 30px;*/
+    /*text-transform: capitalize;*/
+    /*overflow: scroll;*/
+    /*line-height: 50px;*/
+    /*text-align-last: justify;*/
+    /*text-align: left;*/
+    /*text-decoration: overline;*/
+}
+.inner{
+    height: 100px;
+    width: 100px;
+    background: firebrick;
+    margin: 0 auto;
+    opacity: 0.4;
+}
