@@ -1,0 +1,12 @@
+.block1{
+    border: 5px double black;
+    width: 650px;
+    height: 300px;
+    background: pink;
+    margin-top: 100px;
+    margin-left: 300px;
+    padding: 50px 0 0 30px;
+}
+.cursor{
+    cursor: pointer;
+}

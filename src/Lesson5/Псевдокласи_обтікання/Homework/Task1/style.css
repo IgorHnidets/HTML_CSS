@@ -1,0 +1,19 @@
+.backg{
+    background: lightskyblue;
+    font-family: Arial;
+    font-size: 14px;
+    clear: both;
+}
+.styl{
+    float: left;
+}
+table{
+    width: 1500px;
+    height: 50px;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}

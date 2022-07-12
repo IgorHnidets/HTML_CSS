@@ -1,0 +1,42 @@
+li::after{
+    content: 'content after';
+    color: blue;
+}
+li::before{
+    content: '------>';
+    color: red;
+}
+li::first-letter{
+    color: red;
+    font-weight: bold;
+}
+span::first-line{
+    background: #bb4499;
+}
+.outer-block{
+    width: 400px;
+    height: 400px;
+    background: palegreen;
+    padding: 50px;
+    box-sizing: content-box;
+}
+.inner-block{
+    width: 200px;
+    height: 200px;
+    background: #bb4499;
+}
+.text::selection{
+    color: white;
+    background: black;
+}
+.input-group{
+    margin: 15px 0;
+}
+input[type=text]::placeholder{
+    color: aqua;
+}
+input:focus{
+    outline: 4px dotted dodgerblue;
+    color: yellow;
+    background: black;
+}
