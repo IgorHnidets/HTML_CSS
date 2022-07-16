@@ -1,0 +1,80 @@
+.back{
+    background-image: url("images/bg.jpg");
+    width: 1200px;
+    height: 900px;
+    padding: 75px 0 0 400px;
+}
+.back1{
+    background-image:url("images/form-bg.png");
+    width: 608px;
+    height: 353px;
+    margin-top: 100px;
+}
+.btn1{
+    width: 210px;
+    height: 27px;
+    background: url("images/fb-icon.png") no-repeat 5px #0d76be;
+    font-size: 14px;
+    color: white;
+    text-indent: 20px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px 0px black;
+    line-height: 27px;
+}
+.btn2{
+    width: 210px;
+    height: 27px;
+    background: url("images/twitter-icon.png") no-repeat 5px #57d5ff;
+    font-size: 14px;
+    color: white;
+    text-indent: 20px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 10px;
+    line-height: 27px;
+}
+#user{
+    margin-top: 40px;
+    width: 230px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 15px;
+    text-indent: 30px;
+    padding: 10px;
+    background: url("images/user-icon.png") no-repeat 5px white ;
+    background-position: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: -100px; margin-left: 300px;
+}
+#password{
+    width: 230px;
+    height: 40px;
+    border: 1px solid black;
+    font-size: 16px;
+    border-radius: 15px;
+    margin-left: 300px;
+    text-indent: 30px;
+    margin-top: -60px;
+    padding: 10px;
+    background: url("images/password-icon.png") no-repeat 5px white ;
+    background-position: 10px;
+    cursor: pointer;
+}
+#login{
+    margin-top: 40px;
+    width: 80px;
+    height: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    line-height: 10px;
+    background: #f0ce5c;
+    background-position: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: -10px; margin-left: 430px;
+}

@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Comic Mono";
-    src: url(../fonts/ComicMono.ttf);
+    src: url(fonts/ComicMono.ttf);
 }
 .block{
     padding: 16 px;

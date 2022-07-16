@@ -1,0 +1,36 @@
+.btn{
+    height: 35px;
+    width: 200px;
+    background: black;
+    color: yellow;
+    border: 2px solid yellow;
+}
+input[type=text]::placeholder{
+    color: rgba(255, 0, 0, 0.47);
+}
+input[type=checkbox]:checked + span{
+    color: green;
+}
+input[type=email]:invalid{
+    outline: 1px solid red;
+}
+.button{
+    margin: 40px;
+    padding: 10px;
+    background: aqua;
+    color: white;
+    border: 1px black solid;
+    width: 50px;
+    transition: 1500ms;
+    cursor: pointer;
+    box-shadow: 0 20px 20px 0 black;
+    border-radius: 5px;
+}
+.button:hover{
+    background: black;
+    /*transform: rotateX(45deg);*/
+    /*transform: rotateY(45deg);*/
+    transform: rotate(45deg);
+    transform: scale(2);
+
+}

@@ -17,4 +17,5 @@
 }
 .back{
     background-image: url("images/bg.jpg");
+    margin: -10px;
 }
