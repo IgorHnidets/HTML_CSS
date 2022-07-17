@@ -1,0 +1,50 @@
+.main{
+    width: 1390px;
+    height: 2000px;
+    background: #e1e4e2;
+}
+.block1{
+    background: url("images/header.jpg") no-repeat;
+    width: 980px;
+    height: 240px;
+    margin-left: 205px;
+    padding: 30px;
+}
+
+
+
+body{
+    margin: 0;
+}
+.header{
+    width: 1140px;
+    height: 60px;
+    background: #2e353c;
+    padding: 10px 40px 0 210px;
+}
+div.text::first-letter{
+    color: #ac4a5c;
+}
+#search{
+    width: 130px;
+    height: 20px;
+    border: 1px solid #835c63;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-right: 200px;
+    margin-top: -40px;
+    padding: 10px;
+    float: right;
+    background: #24272d;
+    cursor: pointer;
+}
+.btn1{
+    width: 22px;
+    height: 22px;
+    border-radius: 5px;
+    float: right;
+    margin-top: -40px;
+    margin-right: 170px;
+    cursor: pointer;
+    background: url("search.svg") no-repeat 4px #ad4b5d ;
+}
