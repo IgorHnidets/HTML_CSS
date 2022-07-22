@@ -38,6 +38,7 @@ body{
     width: 100%;
     background: #f2f2f2;
     padding: 0 300px;
+
 }
 .section_1{
     width: 37%;
@@ -178,10 +179,10 @@ hr{
 }
 .block5{
     width: 100%;
-    height: 15%;
+    height: 12%;
 }
 .text_zone4{
-    width: 40%;
+    width: 60%;
     color: #2e3947;
     float: right;
     text-align: left;
@@ -272,13 +273,11 @@ hr{
         margin: 50px;
     }
     .right-aside1{
-        width: 80%;
         float: left;
         margin: 10px;
 
     }
     .right-aside2{
-        width: 80%;
         float: left;
         margin: 10px;
     }
@@ -292,18 +291,17 @@ hr{
     .footer{
         width: 100%;
         margin-top: 150px;
-        padding: 40px 100px;
+        padding: 40px 50px;
     }
     .section_1{
         width: 80%;
         margin: 0;
     }
     .right-aside1{
-        width: 80%;
         float: left;
     }
     .right-aside2{
-        width: 80%;
         float: left;
     }
-}
+
+    }
