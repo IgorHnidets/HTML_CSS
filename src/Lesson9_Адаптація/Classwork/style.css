@@ -1,0 +1,7 @@
+.block{
+    width: 350px;
+    height: 350px;
+    background: #bb4499;
+    margin: 10px;
+    display: inline-block;
+}

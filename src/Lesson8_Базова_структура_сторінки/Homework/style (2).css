@@ -1,6 +1,41 @@
+body{
+    margin: 0;
+}
+.header{
+    width: 1140px;
+    height: 60px;
+    background: #2e353c;
+    padding: 10px 40px 0 210px;
+}
+div.text::first-letter{
+    color: #ac4a5c;
+}
+#search{
+    width: 130px;
+    height: 20px;
+    border: 1px solid #835c63;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-right: 200px;
+    margin-top: -30px;
+    padding: 10px;
+    float: right;
+    background: #24272d;
+    cursor: pointer;
+}
+.btn1{
+    width: 22px;
+    height: 22px;
+    border-radius: 5px;
+    float: right;
+    margin-top: -30px;
+    margin-right: 170px;
+    cursor: pointer;
+    background: url("images/search.svg") no-repeat 4px #ad4b5d ;
+}
 .main{
     width: 1390px;
-    height: 3000px;
+    height: 1500px;
     background: #e1e4e2;
 }
 .block1{
@@ -34,7 +69,7 @@
 }
 .main1{
     width: 940px;
-    height: 900px;
+    height: 1800px;
     margin-left: 205px;
     background: #fdfdfe;
     padding: 20px 20px;
@@ -70,44 +105,38 @@
     font-size: 18px;
     color: #fdfdfe;
 }
-
-
-
-
-
-
-body{
-    margin: 0;
+.table1{
+    font-size: 11px;
+    width: 560px;
+    height: 250px;
+    text-align: center;
+    border: 1px solid white;
+    border-spacing: 0;
+    background: #9b4757;
+    color: #ffffff;
+    /*border-radius: 5px;*/
 }
-.header{
-    width: 1140px;
-    height: 60px;
-    background: #2e353c;
-    padding: 10px 40px 0 210px;
+td{
+    border-spacing: 0;
+    border: 1px solid white;
+    background: #282d33;
 }
-div.text::first-letter{
-    color: #ac4a5c;
+a{
+    color: #9c272f;
 }
-#search{
-    width: 130px;
-    height: 20px;
-    border: 1px solid #835c63;
-    font-size: 14px;
-    border-radius: 5px;
-    margin-right: 200px;
-    margin-top: -40px;
-    padding: 10px;
-    float: right;
-    background: #24272d;
-    cursor: pointer;
+.foot1{
+    width: 1390px;
+    height: 10px;
+    background: #ae4b5d;
+    margin-top: -150px;
 }
-.btn1{
-    width: 22px;
-    height: 22px;
-    border-radius: 5px;
-    float: right;
-    margin-top: -40px;
-    margin-right: 170px;
-    cursor: pointer;
-    background: url("search.svg") no-repeat 4px #ad4b5d ;
+.foot2{
+    width: 1390px;
+    height: 210px;
+    background: #262b33;
 }
+.ul{
+    list-style: url("images/time.svg");
+}
+
+

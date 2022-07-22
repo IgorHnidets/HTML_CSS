@@ -1,0 +1,52 @@
+.back{
+    background: url("images/bg.jpg");
+    width: 100%;
+    height: 100%;
+}
+body{
+    margin: 0;
+    margin-left: -40px;
+    font-family: Arial;
+}
+.Header{
+    font-size: 42px;
+    font-weight: bold;
+    font-family: "Comic Sans MS";
+    margin-left: 100px;
+    padding-top: 100px;
+}
+img{
+    border: 4px solid gray;
+    border-spacing: 0;
+}
+@media screen and (max-width: 1470px){
+    .back{
+        height: 1100px;
+    }
+   td{
+       padding-right: -200px;
+   }
+}
+@media screen and (max-width: 1000px){
+    .back{
+        height: 2000px;
+    }
+}
+@media screen and (max-width: 650px){
+    .back{
+        width: 600px;
+    }
+    .header{
+        padding-top: 10px;
+        margin-left:  50px;
+    }
+    .contact{
+        padding-top: 100px;
+    }
+}
+.block2{
+    width: 250px;
+    height: 250px;
+    background: rgba(255, 255, 255, 0);
+    display: inline-block;
+}
