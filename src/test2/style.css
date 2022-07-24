@@ -1,0 +1,259 @@
+@font-face {
+    font-family: "alpha_echo";
+    src: url("font/alpha_echo.ttf");
+}
+body{
+    margin: 0;
+}
+.main hr{
+    clear: both;
+}
+.header{
+    width: 100%;
+    background: #ffffff;
+    padding: 10px;
+}
+.navbar{
+    text-align: center;
+}
+.navbar_items{
+    list-style: none;
+    padding: 10px 20px 0 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.navbar_items li {
+    margin: 0 30px;
+}
+.navbar_items li a{
+    color: #b8b4b2;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: "Times New Roman";
+    padding: 5px;
+}
+.navbar_items li a:hover{
+    width: 200%;
+    height: 20px;
+    border-radius: 5px;
+    background: #f1f1f1;
+    transition: 200ms;
+}
+
+
+
+.main{
+    width: 100%;
+    background: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    padding: 10px;
+
+}
+
+
+
+.section_1{
+    width: 600px;
+    height: 1050px;
+    justify-content: center;
+    background: #ffffff;
+    margin: 10px;
+}
+.sea{
+    width: 100%;
+    height: 200px;
+    background: url("images/main.jpg") no-repeat;
+}
+.text_zone{
+    font-family: Arial;
+    padding: 30px;
+}
+
+
+.right-aside1,.right-aside2{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.right-aside1{
+    width: 300px;
+    height: 460px;
+    text-align: left;
+    background: #fdfdfe;
+    margin: 10px;
+}
+.dog{
+    background: url("images/dog.jpg") no-repeat;
+    width: 100%;
+    height: 200px;
+}
+.text_zone2{
+    padding: 10px 20px;
+}
+#btn1{
+    width: 150px;
+    height: 30px;
+    background: black;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding-top: 7px
+}
+
+
+
+
+.right-aside2{
+    width: 300px;
+    height: 640px;
+    text-align: left;
+    background: #fdfdfe;
+    padding-bottom: 30px;
+    margin: 10px;
+}
+.breakfast{
+    background: url("images/breakfast.jpg") no-repeat;
+    width: 100%;
+    height: 200px;
+}
+.text_zone3{
+    padding: 10px 20px;
+}
+.right-aside2 a{
+    color: #d55536;
+    margin-bottom: 12px;
+}
+.right-aside2 a:hover{
+    text-decoration: none;
+}
+aside hr{
+    margin: 20px;
+}
+#btn2{
+    width: 150px;
+    height: 30px;
+    background: black;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding-top: 7px
+}
+
+
+
+
+
+
+
+footer{
+    width: 100%;
+    background: #262626;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+.footblock{
+    width: 300px;
+    text-align: left;
+    display: inline-block;
+}
+.footblock1{
+    width: 350px;
+    text-align: left;
+    display: inline-block;
+}
+.footblock hr{
+    margin: 20px 20px 20px 0 ;
+}
+.footblock a{
+    color: #899899;
+}
+.fb{
+    background: url("images/facebook.svg") no-repeat;
+    width: 18%;
+    height: 16%;
+    display: inline-block;
+}
+.fb1{
+    background: url("images/dribbble.svg") no-repeat;
+    width: 18%;
+    height: 16%;
+    display: inline-block;
+}
+.fb2{
+    background: url("images/twitter.svg") no-repeat;
+    width: 18%;
+    height: 16%;
+    display: inline-block;
+}
+.fb3{
+    background: url("images/instagram.svg") no-repeat;
+    width: 18%;
+    height: 16%;
+    display: inline-block;
+}
+.fb4{
+    background: url("images/linkedin.svg") no-repeat;
+    width: 20%;
+    height: 16%;
+    display: inline-block;
+}
+.block5{
+    width: 100%;
+    height: 25%;
+}
+.text_zone4{
+    width: 60%;
+    color: #2e3947;
+    float: right;
+    text-align: left;
+    margin-top: -20px;
+}
+hr{
+    margin: 10px 0;
+}
+@media screen and (max-width: 1277px) {
+    .main{
+        width: 100%;
+    }
+    .right-aside1{
+        height: 600px;
+    }
+    .sea{
+        height: 200px;
+    }
+    .right-aside2{
+        height: 600px;
+    }
+    .footblock1{
+        height: 360px;
+    }
+}
+@media screen and (max-width: 660px) {
+    .navbar_items{
+        flex-direction: column;
+    }
+    .section_1{
+        height: 100%;
+    }
+    .right-aside1{
+        order: -2;
+    }
+    .navbar_items li a{
+        padding: 1px 50px;
+    }
+    footer{
+        /*margin-top: 200px;*/
+    }
+}
