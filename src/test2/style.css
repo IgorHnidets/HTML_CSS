@@ -161,12 +161,13 @@ footer{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 20px 0;
+    padding: 20px;
 }
 .footblock{
     width: 300px;
     text-align: left;
     display: inline-block;
+    margin-right: 50px;
 }
 .footblock1{
     width: 350px;
